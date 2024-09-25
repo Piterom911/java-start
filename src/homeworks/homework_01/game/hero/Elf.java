@@ -1,4 +1,4 @@
-package game.hero;
+package homeworks.homework_01.game.hero;
 
 import java.util.Random;
 
