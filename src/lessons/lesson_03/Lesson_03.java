@@ -3,7 +3,7 @@ package lessons.lesson_03;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Main {
+public class Lesson_03 {
     public static void main(String[] args) {
         Scanner calcScanner = new Scanner(System.in);
         calcScanner.useLocale(Locale.ENGLISH);
