@@ -3,7 +3,6 @@ package homeworks.homework_04_extra;
 import java.util.Scanner;
 
 public class Homework_04_extra {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,10 +13,6 @@ public class Homework_04_extra {
 
         System.out.printf("Good day, %s! \n", name);
         System.out.printf("Your name starts with character <%c> and ends with character <%c>.", firstChar, lastChar);
-    }
-
-    public static void processString(String input) {
-
     }
 }
 
