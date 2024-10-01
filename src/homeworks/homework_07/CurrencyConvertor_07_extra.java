@@ -2,7 +2,7 @@ package homeworks.homework_07;
 
 import java.util.Scanner;
 
-public class CurrencyConvertor {
+public class CurrencyConvertor_07_extra {
     public static double convertToDollars(double euros, double exchangeRate) {
         return euros * exchangeRate;
     }
