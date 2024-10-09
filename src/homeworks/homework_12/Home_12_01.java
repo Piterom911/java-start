@@ -2,7 +2,7 @@ package homeworks.homework_12;
 
 import java.util.Random;
 
-public class Home_12 {
+public class Home_12_01 {
     public static void main(String[] args) {
         Random rd = new Random();
         boolean isEdekaOpen = rd.nextBoolean();
