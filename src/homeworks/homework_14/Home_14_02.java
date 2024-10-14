@@ -2,8 +2,8 @@ package homeworks.homework_14;
 
 public class Home_14_02 {
     public static void main(String[] args) {
-        int amount = 21; // Начальная сумма
-        int days = 0; // Счетчик дней
+        int amount = 21;
+        int days = 0;
 
         while (amount > 0) {
             for (int i = amount - 1; i >= 1; i--) {
@@ -22,7 +22,7 @@ public class Home_14_02 {
             }
         }
 
-        System.out.println("Days: " + days); // Выводим количество дней
+        System.out.println("Days: " + days);
     }
 }
 
