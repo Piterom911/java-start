@@ -6,17 +6,17 @@ import java.util.Random;
 public class Task_01 {
     public static void main(String[] args) {
         Random random = new Random();
-        int[] randArr = new int[8];
+        int[] arr = new int[8];
 
-        for (int i = 0; i < 8; i++) {
-            randArr[i] = random.nextInt(1, 51);
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(1, 51);
         }
-        System.out.println(Arrays.toString(randArr));
+        System.out.println(Arrays.toString(arr));
 
-        for (int i = 0; i < randArr.length; i++) {
-            if (i % 2 != 0) randArr[i] = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (i % 2 != 0) arr[i] = 0;
         }
-        System.out.println(Arrays.toString(randArr));
+        System.out.println(Arrays.toString(arr));
     }
 }
 
